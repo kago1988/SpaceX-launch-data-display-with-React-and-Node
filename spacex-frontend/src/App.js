@@ -5,7 +5,6 @@ function App() {
   const [launches, setLaunches] = useState([]);
   const [loading, setLoading] = useState(false);
 
-  // CSS-in-JS styles
   const styles = {
     background: {
       position: 'fixed',
@@ -13,11 +12,11 @@ function App() {
       left: 0,
       width: '100%',
       height: '100%',
-      backgroundColor: 'black', // Black background surrounding the image
+      backgroundColor: 'black', 
       backgroundImage: 'url("/background.jpg")',
-      backgroundSize: 'contain',  // Ensure the full image is visible without cropping
-      backgroundPosition: 'center center',  // Center the image perfectly
-      backgroundRepeat: 'no-repeat',  // Prevent image tiling
+      backgroundSize: 'contain', 
+      backgroundPosition: 'center center', 
+      backgroundRepeat: 'no-repeat', 
       display: 'flex',
       justifyContent: 'center',
       alignItems: 'center',
@@ -29,7 +28,7 @@ function App() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: 'rgba(0, 0, 0, 0.6)',  // Dark overlay for readability
+      backgroundColor: 'rgba(0, 0, 0, 0.6)', 
       padding: '20px',
     },
     title: {
@@ -48,9 +47,9 @@ function App() {
       marginBottom: '20px',
     },
     tableContainer: {
-      width: '90vw',   // Full width of the browser with some padding
-      maxHeight: '400px',  // Fixed height for scrolling
-      overflowY: 'auto',   // Enable vertical scrolling
+      width: '90vw', 
+      maxHeight: '400px', 
+      overflowY: 'auto', 
       backgroundColor: 'rgba(255, 255, 255, 0.1)',
       borderRadius: '10px',
       border: '1px solid #ccc',
